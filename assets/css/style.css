@@ -25,7 +25,7 @@ header {
     width: 100%;
     background: #ffffff;
 }
-img {
+#me {
     float: left;
     border: 1px #ddd;
     border-radius: 5px;
@@ -48,6 +48,7 @@ img {
     height: auto;
     width: 960px;
     margin: auto;
+    margin-bottom: 100px;
 }
 .footer {
     background-color: #666666;
@@ -67,7 +68,7 @@ body {
 }
 .main {
     border-top: 3px solid #cccccc;
-    min-height: 250px;
+    margin-bottom: 20px;
 }
 textarea {
     resize: none;
@@ -82,4 +83,17 @@ p {
 .submit {
     background: #4aaaa5;
     color: #cccccc;
+}
+h3 {
+    position: absolute;
+    bottom: 0px;
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 300px;
+    line-height: 30px;
+}
+.box1 {
+    position: relative;
+    margin: 20px;
 }
